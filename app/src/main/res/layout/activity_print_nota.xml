@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".PrintNota"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Cetak Nota"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:gravity="center"
+        android:id="@+id/lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="Attach Printer"/>
+    <TextView
+        android:gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/lblPrinterName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Printer Name"
+        android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btn_Connect"
+            android:text="Connect"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f9654a"/>
+        <Button
+            android:id="@+id/btn_Disconnect"
+            android:text="Disconnect"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#d90f23"/>
+        <Button
+            android:id="@+id/btn_Print"
+            android:text="Print"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f9654a"/>
+
+</LinearLayout>

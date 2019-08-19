@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.projekta">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".application.Application"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CetakLaporan" />
+        <activity android:name=".DataUser" />
+        <activity android:name=".DaftarPembayaranAdmin" />
+        <activity android:name=".DaftarKirimanAdmin" />
+        <activity android:name=".DaftarTransaksiUser" />
+        <activity android:name=".PrintNota" />
+        <activity android:name=".DetailTransaksiKurir" />
+        <activity android:name=".DaftarPembayaranKurir" />
+        <activity android:name=".DaftarKirimanKurir" />
+        <activity android:name=".DetailAcceptAdmin" />
+        <activity android:name=".DetailRejectAdmin" />
+        <activity android:name=".DetailPesananAdmin" />
+        <activity android:name=".DaftarPesananAdmin" />
+        <activity
+            android:name=".DashboardAdmin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DetailListOrderanUser" />
+        <activity android:name=".ListOrderanUser" />
+        <activity android:name=".DashboardKurir" />
+        <activity android:name=".Setting" />
+        <activity android:name=".Login">
+        </activity>
+
+        <meta-data
+            android:name="DATABASE"
+            android:value="projekta.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="1" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="com.example.projekta" />
+
+        <activity android:name=".DashboardUser" />
+    </application>
+
+</manifest>

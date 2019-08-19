@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#356859</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="blue">#0c1edd</color>
+
+    <color name="green">#37966F</color>
+    <color name="abu">#afafaf</color>
+    <color name="second">#ededed</color>
+    <color name="card_box_bg">#a5d6a7</color>
+
+    <color name="pagi">#80deea</color>
+    <color name="siang">#ffeb3b</color>
+    <color name="sore">#ffb300</color>
+    <color name="malam">#1a237e</color>
+</resources>
